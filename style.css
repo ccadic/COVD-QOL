@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#scoreDisplay {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.significant {
+    color: red;
+}
